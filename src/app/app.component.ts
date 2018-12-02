@@ -2,6 +2,7 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { DataWaktuService } from './services/data-waktu-service.service';
 import { Subscription, throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
+import { LogUpdateService } from './services/log-update.service';
 
 @Component({
   selector: 'app-root',
@@ -13,7 +14,11 @@ export class AppComponent implements OnInit, OnDestroy {
   stringTanggalSekarang = '1 Januari 2019';
   subscription: Subscription;
 
-  constructor(private dateservice: DataWaktuService) { }
+  constructor(private dateservice: DataWaktuService,
+    private swupdates: LogUpdateService) {
+    // check the service worker for updates
+    this.swupdates.checkUpdatesApp();
+  }
 
 
   ngOnInit(): void {

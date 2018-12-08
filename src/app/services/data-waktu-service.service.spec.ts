@@ -1,12 +1,12 @@
 import { TestBed } from '@angular/core/testing';
 
-import { DataWaktuServiceService } from './data-waktu-service.service';
+import { DataWaktuService } from './data-waktu-service.service';
 
-describe('DataWaktuServiceService', () => {
+describe('DataWaktuService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: DataWaktuServiceService = TestBed.get(DataWaktuServiceService);
+    const service: DataWaktuService = TestBed.get(DataWaktuService);
     expect(service).toBeTruthy();
   });
 });

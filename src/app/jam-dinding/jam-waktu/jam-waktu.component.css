@@ -11,7 +11,7 @@
 /*}*/
 
 .clock {
-  background: #ffffff url(../../assets/ios_clock.svg) no-repeat center;
+  background: #ffffff url(../../../assets/ios_clock.svg) no-repeat center;
   border-radius: 10%;
   background-size: 100%;
   height: 100%;

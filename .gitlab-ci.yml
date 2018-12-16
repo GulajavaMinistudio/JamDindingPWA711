@@ -1,0 +1,30 @@
+image: node:lts
+
+cache: 
+  paths:
+    - node_modules/
+
+before_script: 
+  - npm install -g @angular/cli
+
+stages:
+  - test
+  - production
+
+test_build:
+  stage: test
+  script: 
+    - npm install
+    - npm run build
+  artifacts:
+    paths:
+    - dist
+  
+productions:
+  stage: production
+  script: 
+    - npm install
+    - npm run buildprod
+  artifacts:
+    paths:
+    - dist

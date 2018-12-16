@@ -25,12 +25,14 @@
             ],
             "styles": [
               "src/styles.css",
-              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css"
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.slim.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "node_modules/moment/min/moment-with-locales.min.js"
+              "node_modules/moment/min/moment-with-locales.min.js",
+              "node_modules/@fortawesome/fontawesome-free/js/all.min.js"
             ]
           },
           "configurations": {

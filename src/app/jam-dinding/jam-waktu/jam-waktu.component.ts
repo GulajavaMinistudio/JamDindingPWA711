@@ -1,5 +1,5 @@
 import { Component, OnInit, EventEmitter, Output, OnDestroy } from '@angular/core';
-import { STATE_REFRESH_DATA } from '../Konstans';
+import { STATE_REFRESH_DATA } from '@app/Konstans';
 
 @Component({
   selector: 'app-jam-waktu',

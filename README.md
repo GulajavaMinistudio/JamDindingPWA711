@@ -1,5 +1,15 @@
 # JamDindingCSS711
 
+Aplikasi Jam Dinding dengan tambahan Progressive Web Apps sehingga bisa dipakai secara offline di perangkat komputer, ataupun di perangkat smartphone Android. Untuk perangkat Android, bisa dibuat shortcut aplikasi nya dengan bantuan browser Google Chrome. 
+
+Dokumentasi mengenai Angular dan juga dokumentasi Service Workernya dapat dilihat di sini :
+
+https://angular.io/docs
+
+https://angular.io/guide/service-worker-intro
+
+## Lain-lain
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.0.
 
 ## Development server

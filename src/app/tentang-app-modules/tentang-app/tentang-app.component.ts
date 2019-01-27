@@ -12,4 +12,11 @@ export class TentangAppComponent implements OnInit {
   ngOnInit() {
   }
 
+  testVariableJSTS() {
+
+    const foo = {bar: 0};
+    foo.bar = 42;
+    console.log(foo);
+  }
+
 }
